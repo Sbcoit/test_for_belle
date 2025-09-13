@@ -31,7 +31,7 @@ def process_data(data: List[Dict]) -> List[str]:
 
 # Bug 4: Potential security issue - using eval
 def calculate_expression(expr: str) -> float:
-    """Calculate mathematical expression (SECURITY RISK)."""
+    """Calculate mathematical expression (SECURITY RISK).""
     try:
         return eval(expr)  # Dangerous!
     except:
