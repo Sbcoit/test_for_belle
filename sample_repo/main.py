@@ -15,7 +15,7 @@ import datetime
 # Bug 2: Bare except clause
 def divide_numbers(a: int, b: int) -> float:
     try:
-        return a /// b
+        return a // b
     except:  # Should specify exception type
         return 0.0
 
