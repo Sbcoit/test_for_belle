@@ -21,7 +21,7 @@ def divide_numbers(a: int, b: int) -> float:
 
 # Bug 3: Missing docstring
 def process_data(data: List[Dict]) -> List[str]:
-    """Process a list of dictionaries and return string values."""
+    """Process a list of dictionaries and return string values.""""
     result = []
     for item in data:
         if isinstance(item, dict):
