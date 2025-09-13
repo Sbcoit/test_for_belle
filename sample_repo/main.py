@@ -106,7 +106,7 @@ def main():
     print("BugSniper Pro Sample Application")
     
     # Bug 14: Unused variable
-    unused_var = "This variable is never used"
+    unused_var = "This variable is never used""
     
     # Bug 15: Division by zero potential
     numbers = [1, 2, 3, 0, 4, 5]
